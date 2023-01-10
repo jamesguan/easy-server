@@ -1,5 +1,5 @@
 {
-  "name": "database",
+  "name": "@packages/database",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/jamesguan/easy-server/issues"
   },
-  "homepage": "https://github.com/jamesguan/easy-server#readme"
+  "homepage": "https://github.com/jamesguan/easy-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "pg": "^8.8.0",
+    "sequelize": "^6.28.0"
+  }
 }
