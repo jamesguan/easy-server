@@ -59,19 +59,14 @@ User.init(
     },
     firstname: {
       type: DataTypes.STRING(100),
-      allowNull: false,
+      allowNull: true,
     },
     lastname: {
       type: DataTypes.STRING(100),
-      allowNull: false,
+      allowNull: true,
     },
     phone: {
       type: DataTypes.STRING(22),
-      allowNull: false,
-      unique: true,
-    },
-    gamertag: {
-      type: DataTypes.STRING(20),
       allowNull: false,
       unique: true,
     },
@@ -89,10 +84,6 @@ User.init(
       type: DataTypes.STRING(320),
       allowNull: false,
       unique: true,
-    },
-    coin: {
-      type: DataTypes.INTEGER,
-      defaultValue: 0,
     },
     cardOnFile: {
       type: DataTypes.BOOLEAN,

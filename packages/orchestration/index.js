@@ -12,7 +12,7 @@ const app = express();
 connect();
 
 const whitelist = [
-  'https://peachhealth.ai',
+  '*',
 ];
 const corsOptions = {
   origin: (origin, callback) => {
